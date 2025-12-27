@@ -1,4 +1,4 @@
-# hackthon-project-demo
+# open-productivity-agent
 轻量级 AI 代理工作台（Agent Workspace）
 
     为什么？  
