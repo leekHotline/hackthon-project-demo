@@ -23,6 +23,33 @@
         支持“工具链自由组合”（比单一聊天更灵活）  
         针对自由职业者/学生/研究者（超级个体）
 
+flowchart TD
+    A[项目启动] --> B[MVP冲刺<br>3天核心]
+    
+    B --> B1[文档处理]
+    B --> B2[RAG问答]
+    B --> B3[插件系统]
+    B --> B4[工作流保存]
+    
+    B1 & B2 & B3 & B4 --> C{验证测试}
+    C -->|通过| D[迭代增强<br>差异化功能]
+    C -->|调整| E[快速修复] --> B
+    
+    D --> D1[隐私本地化]
+    D --> D2[工具链组合]
+    D --> D3[场景模板]
+    
+    D1 & D2 & D3 --> F[生态扩展<br>社区与API]
+    
+    F --> G[目标达成<br>轻量级AI工作台]
+    
+    style A fill:#e1f5fe
+    style B fill:#f3e5f5
+    style D fill:#e8f5e8
+    style F fill:#fff3e0
+    style G fill:#ffebee,stroke:#c62828
+
+
 
 ## 参考文档: https://shanghaiopen.feishu.cn/wiki/BBClwNHPeiUfntkhNGucvoftnCf
 
